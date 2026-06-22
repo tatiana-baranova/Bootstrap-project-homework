@@ -54,9 +54,50 @@ button {
 .block-section{
     flex-direction: column;
     align-items: center;
+    
 }
 .head-section{
     color: rgba(111, 18, 18, 0.629);
     font-weight: 600;
     font-size: 38px;
 }
+.block-title{
+    margin-bottom: 10px;
+}
+
+.list-inform{
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    gap: 14px;
+    justify-content: center;
+}
+.item-information{
+    width: 200px;
+    text-align: center;
+    
+}
+.subtitle-inform{
+    font-size: 12px;
+    text-align: center;
+}
+@media screen and (max-width: 992px) {
+    .list-inform{
+        flex-direction: column;
+    }
+}
+.block-footer{
+    font-size: 14px;
+}
+
+.section-footer{
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(rgba(2, 3, 12, 0.789),
+                        rgba(2, 3, 12, 0.789)),
+                        url(../img/img2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
