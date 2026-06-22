@@ -1,0 +1,62 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    cursor: pointer;
+}
+
+.block-header{
+    width: 100%;
+    height: 600px;
+    background: linear-gradient(rgba(2, 3, 12, 0.789),
+                        rgba(2, 3, 12, 0.789)),
+                        url(../img/img1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(4, 4, 72, 0.243);
+    flex-direction: column;
+}
+.text-information{
+    font-size: 64px;
+}
+
+.block-section{
+    flex-direction: column;
+    align-items: center;
+}
+.head-section{
+    color: rgba(111, 18, 18, 0.629);
+    font-weight: 600;
+    font-size: 38px;
+}
